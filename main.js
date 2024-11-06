@@ -14,6 +14,7 @@ server.listen(port, () => {
 server.get('/city', async (req, res) => {
     const city = req.query.name;
 
+    //Change to your own PGAdmin data here
     const con=new Client({
         host:"localhost",
         user:"postgres",
