@@ -31,10 +31,8 @@ server.get('/city', async (req, res) => {
         const databaseBoquet = await con.query('SELECT * FROM bouquet');
         const databaseCards = await con.query('SELECT * FROM cards');
         const databasePots = await con.query('SELECT * FROM pots')
-        console.log("Query successful:", databaseflowers.rows, databaseBoquet.rows, databaseCards.rows, databasePots.rows);
 
         let database = [databaseflowers.rows, databaseBoquet.rows, databaseCards.rows, databasePots.rows];
-        console.log(database);
         res.json(database);  // Send the query result to the frontend as JSON
     } catch (err) {
         console.error("Database error:", err.message);
