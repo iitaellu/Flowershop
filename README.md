@@ -11,4 +11,4 @@ This is a simple exercise of distributed database system. There is used three sq
 ![image](https://github.com/user-attachments/assets/a3a5aa7f-f9f9-468f-bb41-602bddd4606d)
 6. In terminal type: node main.js
 7. Then open browser and type "localhost:3000/"
-8. Then press any button to see database data from location
+8. Then press any button to see database data from choosed location
