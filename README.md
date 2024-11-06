@@ -10,5 +10,5 @@ This is a simple exercise of distributed database system. There is used three sq
 5. Change in main.js file your own PGAdim 4 data to code so the databases can be connected to your code
 ![image](https://github.com/user-attachments/assets/a3a5aa7f-f9f9-468f-bb41-602bddd4606d)
 6. In terminal type: node main.js
-7. Then open browser and type "localhost](http://localhost:3000/"
+7. Then open browser and type "localhost:3000/"
 8. Then press any button to see database data from location
