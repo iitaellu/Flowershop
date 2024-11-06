@@ -2,7 +2,7 @@
 
 This is a simple exercise of distributed database system. There is used three sql databases, which each include 4 tables and each of them 5 rows of data. In front-end user can choose databace location by pressing button, and software prints tables from choosed database to front end.
 
-## setup
+## Setup
 1. Take copy of the product ether downloading zip file or open it with Github Desktop and clone project to your own computer.
 2. Open project in visual studio code, or other code editor.
 3. Open yoyr PGAdmin 4 and create databases: Lappeenranta, Tampere and Helsinki.
